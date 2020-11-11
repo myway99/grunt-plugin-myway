@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "myway grunt plugin",
   "repository": "https://github.com/myway99/grunt-plugin-myway",
+  "homepage": "https://myway99.github.io/grunt-plugin-myway/",
   "author": {
     "name": "myway99",
     "email": "myway99@sina.com",
