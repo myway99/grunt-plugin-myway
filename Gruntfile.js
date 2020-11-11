@@ -33,24 +33,14 @@ module.exports = function (grunt) {
 
     // Configuration to be run (and then tested).
     plugin_myway: {
-
-
-      // default_options: {
-      //   options: {
-      //   },
-      //   files: {
-      //     'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123']
-      //   }
-      // },
-      // custom_options: {
-      //   options: {
-      //     separator: ': ',
-      //     punctuation: ' !!!'
-      //   },
-      //   files: {
-      //     'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123']
-      //   }
-      // }
+      //
+      options: {
+        // who: 'sky',
+        who: 'sea',
+        commentSymbol: '//'
+      },
+      // 指定dist target
+      dist: ['test/fixtures/*.js']
     },
 
     // Unit tests.
